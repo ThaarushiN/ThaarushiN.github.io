@@ -1,0 +1,102 @@
+title: Thaarushi Herath - AI Developer 
+email: thaarushiherth@gmail.com # Added your email for completeness
+description: >- # this means to ignore newlines until "baseurl:"
+  Portfolio and tech blog by Tharushi Herath — Trainee AI Developer and Data Science graduate passionate about building intelligent systems that connect data, engineering, and real-world impact. 
+  Showcasing projects in Machine Learning, AI Engineering, Computer Vision, Edge AI, and LLM-based applications. 
+  Featuring hands-on guides, documentation, and insights on deploying practical AI solutions using FastAPI, Azure, and modern MLOps tools. 
+  Built to learn, share, and inspire the next generation of AI-driven innovation.
+twitter_username: username
+github_username: ThaarushiN
+minimal_mistakes_skin: default
+search: true
+url: https://ThaarushiN.github.io
+baseurl: "" 
+
+# Build settings
+markdown: kramdown
+theme: minimal-mistakes-jekyll
+# Outputting
+permalink: /:categories/:title/
+paginate: 5 # amount of posts to show
+paginate_path: /page:num/
+timezone: Asia/Colombo # Recommended based on your location (Sri Lanka)
+
+include:
+  - _pages
+  - _posts
+
+# ... (Exclude section remains the same) ...
+
+# Plugins (Minimal Mistakes often uses 'plugins:' instead of 'gems:')
+plugins:
+  # 'jekyll-remote-theme' is unnecessary if 'theme: minimal-mistakes-jekyll' is used
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
+  - jekyll-include-cache
+  - jekyll-seo-tag
+  # 'github-pages' is usually included via Gemfile, but leaving other plugins as you defined
+
+# ... (Author and Footer settings remain the same) ...
+
+collections:
+  posts:
+    output: true
+    permalink: /:year/:month/:day/:title/
+  work:
+    output: true
+    permalink: /projects/:name/
+
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
+
+  # ** NEW CONFIGURATION FOR PROFESSIONAL PROJECTS **
+  - scope:
+      path: "_projects/_professional"
+      type: projects # Apply to items in the 'projects' collection
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      share: true
+      category: "Professional" # <-- Sets the category for filtering
+      navigation : false
+
+  # ** NEW CONFIGURATION FOR ACADEMIC PROJECTS **
+  - scope:
+      path: "_projects/_academic"
+      type: projects # Apply to items in the 'projects' collection
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      share: true
+      category: "Academic" # <-- Sets the category for filtering
+      navigation: false
+
+  # _pages
+  - scope:
+      path: "_pages"
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+
+category_archive:
+  type: liquid
+  path: /categories/
+tag_archive:
+  type: liquid
+  path: /tags/
