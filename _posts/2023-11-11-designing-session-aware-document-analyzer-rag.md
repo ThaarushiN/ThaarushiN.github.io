@@ -13,7 +13,7 @@ related: true
 
 excerpt: "Architeturing a RAG pipeline"
 header:
-  overlay_image: /assets/images/RAGHEADER.png 
+  overlay_image: /assets/images/RAGHEADER.png  
   caption: ""
 ---
 
@@ -29,6 +29,12 @@ A major concern when dealing with confidential documents, is privacy. This is wh
 ---
 
 ## Architecture
+
+{% include figure 
+   image_path="/assets/images/architecture-diagram.png" 
+   alt="System Architecture Diagram showing FastAPI, Redis, and ChromaDB" 
+   caption="Figure 1: High-level architecture of the Session-Aware Document Analyzer."
+%}
 
 ### Techstack
 **Python FastAPI**
