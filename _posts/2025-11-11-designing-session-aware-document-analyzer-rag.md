@@ -1,6 +1,6 @@
 ---
 title: "Designing a Session-Aware Document Analyzer: From Stateless RAG to Contextual Intelligence"
-date: 2023-11-11 12:05:00 +0530 
+date: 2025-11-11 12:05:00 +0530 
 categories: [AI, RAG, Architecture]
 tags: [FastAPI, Redis, ChromaDB, Azure Document Intelligence, ReactJS]
 
@@ -62,6 +62,15 @@ ChromaDB is a lightweight and open source vector database. When run in server mo
 This is what gives our Document Analyzer the capability to ‘read’ documents. Document analyzer supports a wide range of images and documents types including OCR documents. 
 
 ---
+There were several key challenges I encountered while designing, developing, and deploying this system:
+
+- Configuring faster processing through parallelism  
+- Preserving the structure of tabular data  
+- Handling CPU-heavy vs. I/O-heavy workloads  
+- Implementing tool-calling for tasks such as chart generation  
+
+Follow along with this series to see how each of these challenges was addressed.
+
 
 
 
