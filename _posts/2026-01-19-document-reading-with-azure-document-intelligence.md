@@ -1,6 +1,6 @@
 ---
 title: "Document Reading with Azure Document Intelligence"
-date: 2026-11-25
+date: 2026-01-19
 categories: [AI, Engineering, Azure]
 tags: [FastAPI, Redis, AsyncIO, Concurrency, Azure Document Intelligence]
 layout: single
