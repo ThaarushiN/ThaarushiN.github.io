@@ -5,27 +5,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   Showcasing projects in Machine Learning, AI Engineering, Computer Vision, Edge AI, and LLM-based applications. 
   Featuring hands-on guides, documentation, and insights on deploying practical AI solutions using FastAPI, Azure, and modern MLOps tools. 
   Built to learn, share, and inspire the next generation of AI-driven innovation.
-author:
-  name: "Tharushi Herath"
-  bio: "Trainee AI Developer & Data Science Graduate"
-  avatar: /assets/images/about.png
-  links:
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/IT21174230"
-    - label: "LinkedIn"
-      icon: "fab fa-fw fa-linkedin"
-      url: "https://www.linkedin.com/in/thaarushi-herath-b271b0273"
-
-footer:
-  links:
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/ThaarushiN"
-    - label: "LinkedIn"
-      icon: "fab fa-fw fa-linkedin"
-      url: "https://www.linkedin.com/in/thaarushi-herath-b271b0273"
-
+twitter_username: username
 github_username: ThaarushiN
 minimal_mistakes_skin: default
 search: true
