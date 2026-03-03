@@ -6,7 +6,7 @@ nav_exclude : false
 entries_layout: grid # Add this back to ensure container styling is applied
 ---
 
-## 💼 Professional Projects
+## Professional Projects
 
 {% assign professional_projects = site.work | where: "category", "Professional" %}
 
@@ -26,7 +26,7 @@ entries_layout: grid # Add this back to ensure container styling is applied
 
 <div style="clear: both;"></div> 
 
-## 📚 Academic Projects
+## Academic Projects
 
 {% assign academic_projects = site.work | where: "category", "Academic" %}
 

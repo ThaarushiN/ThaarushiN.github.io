@@ -3,7 +3,7 @@ permalink: /about/
 title: "About"
 ---
 
-Hello, I’m Tharushi Herath, a Data Science graduate currently working as a Trainee AI Developer. I’m passionate about building intelligent systems that bridge the gap between data, engineering, and real-world impact.
+Hello, I’m Tharushi Herath, currently working as an AI Developer at Sunchain Technologies (Pvt) Ltd. I’m passionate about building intelligent systems that bridge the gap between data, engineering, and real-world impact.
 
 I strongly believe in the saying, “If it’s not documented, you didn’t build it.” I love sharing what I've built and learned and that’s exactly what this portfolio is for: to grow, reflect, and connect with others who are as excited about technology as I am.
 

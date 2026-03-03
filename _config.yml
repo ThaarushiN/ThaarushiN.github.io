@@ -12,6 +12,20 @@ search: true
 url: https://ThaarushiN.github.io
 baseurl: "" 
 
+# Author Profile
+author:
+  name   : "Thaarushi Herath"
+  avatar : "/assets/images/bio-photo.png" # Path to your profile picture
+  bio    : "AI Developer"
+  location: "Sri Lanka"
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/IT21174230"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://lk.linkedin.com/in/thaarushi-herath-b271b0273" 
+
 # Build settings
 markdown: kramdown
 # theme: minimal-mistakes-jekyll

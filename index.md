@@ -53,5 +53,6 @@ feature_row:
     height: 75px;  
     object-fit: contain; 
     margin: 0 auto; 
+    filter: invert(1);
   }
 </style>
