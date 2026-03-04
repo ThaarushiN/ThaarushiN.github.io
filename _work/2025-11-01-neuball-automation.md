@@ -5,7 +5,7 @@ role: "AI Developer, Sunchain Technologies PVT Ltd"
 date: 2025-11-01
 excerpt: "Built automated customer engagement and lead generation workflows using n8n and ODOO CRM to optimize marketing pipeline efficiency for the Neuball platform."
 header:
-  overlay_image: /assets/images/NeuballAutomation.png
+  overlay_image: /assets/images/communication.png
   overlay_filter: 0.3
 tags: [n8n, ODOO CRM, Automation, AI, Marketing, Workflow Automation]
 layout: single

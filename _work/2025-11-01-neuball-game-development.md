@@ -5,9 +5,9 @@ role: "AI Developer, Sunchain Technologies PVT Ltd"
 date: 2025-11-01
 excerpt: "Engineered game logic, mechanics, and a 3D interactive front-end for the Neuball mobile game using React.js and Babylon.js."
 header:
-  overlay_image: /assets/images/NeuballGame.png
+  overlay_image: /assets/images/gamedev.png
   overlay_filter: 0.3
-tags: [React.js, Babylon.js, Game Development, 3D, JavaScript, Mobile]
+tags: [React Native, Babylon.js, Game Development, 3D, JavaScript, Mobile]
 layout: single
 author_profile: true
 read_time: true
@@ -18,7 +18,7 @@ As part of the **Neuball** product team at **Sunchain Technologies**, I contribu
 
 **Key Achievements:**
 - Engineered core **game logic, mechanics, and user engagement systems** to deliver a compelling and interactive gameplay experience.
-- Built and integrated the **front-end using React.js and Babylon.js**, enabling real-time 3D rendering directly in the browser.
+- Built and integrated the **front-end using React Native and Babylon.js**, enabling real-time 3D rendering directly inside the mobile application.
 - Collaborated closely with designers and developers to align the visual experience with product and gameplay goals.
 
 **Impact:**
