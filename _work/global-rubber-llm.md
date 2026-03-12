@@ -25,3 +25,9 @@ At **Global Rubber Industries**, I engineered an internal **document analysis an
 
 **Impact:**  
 Empowered employees to retrieve critical operational data through natural language queries, significantly improving internal knowledge accessibility and productivity.
+
+---
+
+<div style="margin-top: 3rem; padding-top: 2rem; border-top: 1px solid #ddd; text-align: center;">
+  <a href="/projects/#professional-projects" style="font-weight: 500; color: #0d341c; text-decoration: none;">← See All Projects</a>
+</div>

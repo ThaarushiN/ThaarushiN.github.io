@@ -3,6 +3,10 @@ main:
     url: /
   - title: "About"
     url: /about/
+  - title: "Career History"
+    url: /career/
+  - title: "Tech Stack"
+    url: /tech-stack/
   - title: "Projects"
     url: /projects/
   - title: "Blog"

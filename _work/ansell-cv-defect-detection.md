@@ -24,3 +24,9 @@ At **Ansell Lanka**, I contributed to the development and testing of a **real-ti
 
 **Impact:**  
 Reduced inspection time and improved quality assurance efficiency, enabling early anomaly detection in production workflows.
+
+---
+
+<div style="margin-top: 3rem; padding-top: 2rem; border-top: 1px solid #ddd; text-align: center;">
+  <a href="/projects/#professional-projects" style="font-weight: 500; color: #0d341c; text-decoration: none;">← See All Projects</a>
+</div>
