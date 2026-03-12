@@ -101,4 +101,10 @@ This project implements a smart IoT-based system designed to monitor and improve
 
 This project results in a complete IoT-to-cloud pipeline that combines real-time sensing, automated decision-making, historical analysis, and predictive intelligence. Improved real-time safety monitoring in indoor environments through cloud-connected automation.
 
+---
+
+<div style="margin-top: 3rem; padding-top: 2rem; border-top: 1px solid #ddd; text-align: center;">
+  <a href="/projects/#academic-projects" style="font-weight: 500; color: #0d341c; text-decoration: none;">← See All Projects</a>
+</div>
+
 

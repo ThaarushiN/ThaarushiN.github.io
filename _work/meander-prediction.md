@@ -84,3 +84,9 @@ All spatial and temporal data were processed through **Google Earth Engine (GEE)
 
 * **ERA5 Reanalysis Dataset** (ECMWF), accessed via GEE and the Copernicus Data Store.
 
+---
+
+<div style="margin-top: 3rem; padding-top: 2rem; border-top: 1px solid #ddd; text-align: center;">
+  <a href="/projects/#academic-projects" style="font-weight: 500; color: #0d341c; text-decoration: none;">← See All Projects</a>
+</div>
+
