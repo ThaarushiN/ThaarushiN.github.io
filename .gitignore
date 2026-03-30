@@ -2,3 +2,5 @@ _site
 .sass-cache
 .jekyll-metadata
 Gemfile.lock
+
+automation_project_resources
