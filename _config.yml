@@ -1,7 +1,7 @@
-title: Thaarushi Herath - AI Developer 
+title: Thaarushi Herath - AI Engineer 
 email: thaarushiherth@gmail.com # Added your email for completeness
 description: >- # this means to ignore newlines until "baseurl:"
-  Portfolio and tech blog by Tharushi Herath — Trainee AI Developer and Data Science graduate passionate about building intelligent systems that connect data, engineering, and real-world impact. 
+  Portfolio and tech blog by Tharushi Herath — AI/ML Engineer and Data Science graduate passionate about building intelligent systems that connect data, engineering, and real-world impact. 
   Showcasing projects in Machine Learning, AI Engineering, Computer Vision, Edge AI, and LLM-based applications. 
   Featuring hands-on guides, documentation, and insights on deploying practical AI solutions using FastAPI, Azure, and modern MLOps tools. 
   Built to learn, share, and inspire the next generation of AI-driven innovation.
@@ -16,7 +16,7 @@ baseurl: ""
 author:
   name   : "Thaarushi Herath"
   avatar : "/assets/images/bio-photo.png" # Path to your profile picture
-  bio    : "AI Developer"
+  bio    : "AI/ML Engineer"
   location: "Sri Lanka"
   links:
     - label: "GitHub"

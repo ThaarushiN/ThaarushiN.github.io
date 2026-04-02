@@ -10,7 +10,7 @@ header:
     - label: "View My Projects"
       url: "/projects/"
 excerpt: >
-  Trainee AI Developer & Data Science Graduate passionate about building intelligent systems that connect data, engineering, and real-world impact.
+  AI/ML Engineer & Data Science Graduate passionate about building intelligent systems that connect data, engineering, and real-world impact.
 feature_row:
   - image_path: /assets/images/ai-engineering.png 
     alt: "AI Engineering"
