@@ -3,7 +3,7 @@ permalink: /career/
 title: "Career"
 ---
 
-## AI Developer at Sunchain Technologies PVT (Ltd) (Neuball)
+## AI/ML Engineer at Sunchain Technologies PVT (Ltd) (Neuball)
 **November 2025 to Present**
 
 - Implemented automated customer engagement and lead generation workflows using n8n, optimizing marketing pipeline efficiency.

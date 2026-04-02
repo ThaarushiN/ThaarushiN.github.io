@@ -3,7 +3,7 @@ title: "Automated Lead Lifecycle & Player Retention System for Neuball"
 category: "Professional"
 role: "AI Developer, Sunchain Technologies PVT Ltd"
 date: 2025-11-01
-excerpt: "Designed and deployed a full lead-lifecycle automation system — from lead harvesting to player conversion and cluster-based retention — that replaced manual marketing operations and scaled player engagement without growing the team."
+excerpt: "Designed and deployed a full lead-lifecycle automation system (from lead harvesting to player conversion and cluster-based retention) that replaced manual marketing operations and scaled player engagement without growing the team."
 header:
   overlay_image: /assets/images/communication.png
   overlay_filter: 0.3
@@ -17,13 +17,15 @@ related: true
 
 ## The Problem
 
-Neuball is a mobile gaming platform where player engagement directly drives revenue. The marketing team was handling onboarding, reminders, and re-engagement manually — sending messages one by one, updating the CRM by hand, and having no structured way to tell whether a new signup ever became an active player, or when an active player started dropping off.
+Neuball is a mobile gaming platform where player engagement directly drives revenue. The marketing team was handling onboarding, reminders, and re-engagement manually such as sending messages manually, and having no structured way to tell whether a new signup ever became an active player, or when an active player started dropping off.
 
-This didn't scale, and leads were going cold between touchpoints.
+This was not scalable, and leads were going cold between touchpoints.
 
 ## My Approach: Mapping the Lead Lifecycle
 
-I identified a **lead lifecycle** that became the backbone of the entire system:
+I identified a Neuball-specific lead lifecycle** that became the backbone of the entire system. 
+
+To summarize, we can divide this lifecylce into 4 main phases.
 
 1. **Lead Harvesting** — New signups are captured via lead magnets and registered into a staging pipeline automatically.
 2. **Lead Nurturing** — A timed, multi-step messaging sequence moves each lead toward their first meaningful action on the platform.
@@ -43,11 +45,11 @@ Built an event-driven onboarding workflow in **n8n** that picks up every new sig
 - **Social proof message** — for leads still inactive, a data-driven message featuring live platform statistics pulled from the database
 - **Conversion offer** — once a lead completes their first key action, a promotional offer is delivered across both SMS and email
 
-Each step is conditional — the workflow checks what the lead has and hasn't done before deciding the next action, preventing message fatigue and irrelevant outreach.
+Each step is conditional, the workflow checks what the lead has and hasn't done before deciding the next action, preventing message fatigue and irrelevant outreach.
 
 ### Player Segmentation & Clustering
 
-Designed a **behavioral clustering system** using recursive CTEs in MySQL that segments every player on a rolling basis based on their engagement activity:
+Using the existing **behavioral clustering system** I created recursive CTEs in MySQL that segments every player on a rolling basis based on their engagement activity:
 
 - Players are classified into tiers ranging from highly engaged to inactive, based on activity volume within configurable lookback windows
 - By tracking **cluster transitions** week-over-week in a pivot table, I could detect risk patterns — a highly engaged player dropping a tier for two consecutive periods triggers a targeted re-engagement track

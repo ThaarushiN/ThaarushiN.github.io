@@ -29,6 +29,11 @@ entries_layout: grid # Add this back to ensure container styling is applied
     <h3><a href="/projects/indoor-monitoring/">IoT-Based Indoor Environment Monitoring</a></h3>
     <p>Azure IoT</p>
   </div>
+  <div class="highlight-card">
+    <i class="fas fa-cogs"></i>
+    <h3><a href="/projects/2025-11-01-neuball-automation/">Automated Lead Lifecycle & Player Retention</a></h3>
+    <p>Workflow Automation & CRM</p>
+  </div>
 </div>
 
 <style>
