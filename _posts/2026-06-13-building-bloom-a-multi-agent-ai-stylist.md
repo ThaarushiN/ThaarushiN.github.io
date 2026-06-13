@@ -52,9 +52,7 @@ We created multiple agents to assist user.
 | Stylist Agent    | Evaluates outfits fetched by Researcher, provides explanations to users and decides whether to browse databases, online catalogues etc (a ReAct loop).                                                                                                                                                                                                                 |
 | Style Critic     | Determines whether or not to proceed with stylist agents choices and if the choices does not seem satisfactory, re-initiates the loop.                                                                                                                                                                                                                                 |
 | Sourcing Planner | Determines which brands, web pages and catalogues to search as well as which keywords to use to fetch all the relevant products.                                                                                                                                                                                                                                       |
-| Supervisor Agent | Supervisor agent is an agent that runs at the system levels and supervises the tasks and context. Dynamically routes between steps based on runtime conditions — what the catalog yielded, whether the critic approved, whether the user has a budget set  
-  
-It also makes sure that Stylist and Style Critic are not stuck in an eternal loop going back and forth. |
+| Supervisor Agent | Supervisor agent is an agent that runs at the system levels and supervises the tasks and context. Dynamically routes between steps based on runtime conditions, what the catalog yielded, whether the critic approved, whether the user has a budget set. It also makes sure that Stylist and Style Critic are not stuck in an eternal loop going back and forth. |
 | Checkout Agent   | The agentic flow that helps you checkout multiple items from multiple brands and sites with a single cart using Stripe payment gateway.                                                                                                                                                                                                                                |
 
 In addition to the agentic flows, there are other core functionalities and tool calls that support this process.
@@ -96,6 +94,7 @@ Since this is a demo done for a hackathon it obviously lacked lot of important d
 * For the demonstration we used pre-scraped data as scraping process was not optimized and takes too long, this must be optimized.
 * Currently the products are fetched solely on vector similarity of their product descriptions and the results are only mildly satistfying. This should be integrated with a vision model to improve results as well as recommendations.
 * Gemini being a generative model means the try-ons are not accurate but instead just generated to look accurate, we must switch to actual virtual try on models.
+* Brand agnostic autonoumous check out must be reviewed to see if it complies with rules, guidenlines and standards of regions and data security must be implemented.
 
 * * *
 
