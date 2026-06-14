@@ -27,6 +27,10 @@ Currently when you want to find an outfit for an occasion, you have to have seve
   
 What our application ‘Bloom’ does is lets you do this with the help of agentic flows.
 
+First, we wanted to create a single agent that helped user find what they want for an occasion and/or an aesthetic. Then we understood the process of selecting outfits was not linear and simple as we thought. We often look at what the store has, filter things out, pick few choices, fit on, ask our friends for criticism and if we don't like what we chose, we go back and browse items again.
+
+To emulate this process, we had to create multiple agents.
+
 ## Features
 
 Ability to select an occasion and an aesthetic trend you want to follow.
