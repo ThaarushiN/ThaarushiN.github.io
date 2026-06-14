@@ -2,7 +2,7 @@
 title: "Automated Lead Lifecycle & Player Retention System for Neuball"
 category: "Professional"
 role: "AI Developer, Sunchain Technologies PVT Ltd"
-date: 2025-11-01
+date: 2026-11-01
 excerpt: "Designed and deployed a full lead-lifecycle automation system (from lead harvesting to player conversion and cluster-based retention) that replaced manual marketing operations and scaled player engagement without growing the team."
 header:
   overlay_image: /assets/images/communication.png
